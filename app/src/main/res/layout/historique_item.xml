@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/raduis"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="23.5">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/rib"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:textColor="#fff"
+            android:id="@+id/ribhisto"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:text="1255440555444223325"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="23.5">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/rib"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:textColor="#fff"
+            android:id="@+id/typehisto"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Epargne"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="23.5">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/solde"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:textColor="#fff"
+            android:id="@+id/montanthisto"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="1254.36"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="23.5">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/devise"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:id="@+id/datehisto"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Euro"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
